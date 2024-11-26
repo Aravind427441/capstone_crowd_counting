@@ -1,0 +1,77 @@
+/* Overall Navbar Styles */
+.navbar {
+    background-color: rgb(99, 179, 237); /* Dark background */
+    color: #ffffff; /* White text for dark mode */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-family: 'Inter', sans-serif;
+    height: 50px; /* Reduced height */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Title Styling */
+  .navbar-title .navbar-link {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Link Styling */
+  .navbar-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-item {
+    color: white; /* Soft gray for links */
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-item:hover {
+    background-color: #2a2a40;
+  }
+  
+  /* Dropdown Styles */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown summary {
+    list-style: none;
+    cursor: pointer;
+    color: #cbd5e0;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #33334d;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 0;
+    display: none;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-item {
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #44445e;
+  }
+  
